@@ -1,0 +1,50 @@
+body {
+  font-family: Poppins, sans-serif;
+  text-align: center;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  color: #333;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.choices {
+  margin: 20px 0;
+}
+
+.choice {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.choice:hover {
+  background-color: #f1f1f1;
+  transform: scale(1.05);
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+#winner {
+  margin-top: 10px;
+  color: #222;
+}
+
+.score {
+  margin-top: 30px;
+  font-size: 1.1rem;
+}

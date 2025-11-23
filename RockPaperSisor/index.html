@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <link rel="stylesheet" href="rps.css">
+    
+</head>
+<body>
+    <!-- heading of the game -->
+    <h1>✊Rock ✋Paper ✌️Scissors </h1>
+
+    <!-- buttons for choices  -->
+
+        <div class="choices">
+            <button class="choice" id="rock">✊ Rock</button>
+            <button class="choice" id="paper">✋ Paper</button>
+            <button class="choice" id="scissors">✌️ Scissors</button>
+    
+        </div>
+        <!-- this is for the checking the result -->
+        <div class="result">
+            <p id="user-choice">You Selected: -</p>
+            <p id="computer-choice">Computer Selected: -</p>
+            <p id="winner">Make your move!</p>
+        </div>
+
+<!--     provide the score or update the score -->
+
+        <div class="score">
+            <p>Your score: <span id="user-score">0</span></p>
+            <p>Computer Score: <span id="computer-score">0</span></p>
+        </div>
+
+
+        <script src="rps.js"></script>
+
+
+
+</body>
+</html>
